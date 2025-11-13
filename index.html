@@ -300,9 +300,9 @@
         /* Square Payment Section */
         .square-payment {
             background: var(--light-gray);
-            padding: 40px;
+            
             text-align: center;
-            margin: 40px 0;
+            
         }
 
         .square-payment h3 {
@@ -466,10 +466,7 @@
                     <span class="hours-day">Saturday</span>
                     <span class="hours-time">9:00 AM - 7:00 PM</span>
                 </div>
-                <div class="hours-item">
-                    <span class="hours-day">Sunday</span>
-                    <span class="hours-time">CLOSED</span>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -540,13 +537,112 @@
     <script>
         // Reviews Array - Add your reviews here
         const reviews = [
-            { name: "Customer 1", rating: 5, body: "" },
-            { name: "Customer 2", rating: 5, body: "" },
-            { name: "Customer 3", rating: 5, body: "" },
-            { name: "Customer 4", rating: 5, body: "" },
-            { name: "Customer 5", rating: 5, body: "" },
-            { name: "Customer 6", rating: 5, body: "" }
-        ];
+    {
+        "name": "Christina DeHart",
+        "rating": 5,
+        "body": "Global glass provided a highly competitive quote to replace my windshield after a traffic incident. CJ was professional, timely and knowledgeable. He was able to change out my windshield at my home within hours of my request. This made a big difference for my family!"
+    },
+    {
+        "name": "Ryan D. Berry",
+        "rating": 5,
+        "body": "Great service and affordable prices. Would definitely recommend and will be using again. Also locally owned and operated!"
+    },
+    {
+        "name": "Karissa F.",
+        "rating": 5,
+        "body": "CJ was so quick to respond and was able to come to my house to replace my broken windshield in the driveway! I appreciate the mobile service and kindness so much, especially as a mom of two toddlers. Can't thank you enough!"
+    },
+    {
+        "name": "David W.",
+        "rating": 5,
+        "body": "I had my front windshield replaced and couldn't be happier with the service! From start to finish, the process was smooth and professional. Carl was friendly, punctual, and explained everything clearly. The new windshield looks perfect -- no streaks, no leaks, and crystal clear visibility."
+    },
+    {
+        "name": "Christina D.",
+        "rating": 5,
+        "body": "CJ was responsive, provided a highly competitive quote and executed my windshield replacement with care and expertise. He was able to replace my windshield at my home the same day of my request. This made a big difference for my family!"
+    },
+    {
+        "name": "Lane W.",
+        "rating": 5,
+        "body": "Couldn't ask for better service! CJ responded immediately and was at my door the same day. He's now \"my guy\" for glass repair/replacement. I got a few quotes and he was able to cut through a lot of costs and offer a very reasonable price."
+    },
+    {
+        "name": "Regina B.",
+        "rating": 5,
+        "body": "CJ is my Superstar! Great service at a great price! Job completed on the same day. Awesome to work with."
+    },
+    {
+        "name": "Matt F.",
+        "rating": 5,
+        "body": "Found this place on Yelp......CJ was great! Got my truck window replaced same day! Was very friendly & professional! I will definitely recommend for auto glass replacement! Thanks CJ for doing a great job!"
+    },
+    {
+        "name": "robert m.",
+        "rating": 5,
+        "body": "CJ was great! Great price and drove out to El Reno to replace my front windshield on my Nissan. He did a great job and it looks great! Definitely recommend!"
+    },
+    {
+        "name": "Jenna S.",
+        "rating": 5,
+        "body": "He was SO professional, courteous and quick!! Also quoted the best price!! I would 10/10 recommend his service and will be using him in the future!! Thanks CJ!!!!!!"
+    },
+    {
+        "name": "Ethan R.",
+        "rating": 5,
+        "body": "CJ is the man, if I could give home 10 stars I would. I bought a car from auction that had a smashed windshield and back glass, flew into OKC to have the glass repaired and drive the car home. I somehow stumbled across Global Glass and gave a call. He gave me the best price out of anyone and was super helpful. He treated me like family and helped me with everything. He even did the windshield and back glass while the car was on a trailer in my hotel parking lot! Couldn't have asked for a nicer or better person. Definitely recommend"
+    },
+    {
+        "name": "Emery N.",
+        "rating": 5,
+        "body": "CJ is awesome! Helped replaced a window same day within hours of us calling! along with that has great pricing, not to mention super relaxed and nice to have work on your car. 10/10 recommend."
+    },
+    {
+        "name": "Lisa G.",
+        "rating": 5,
+        "body": "Awesome service! CJ was quick, professional and reasonably priced. Had my windshield replaced in no time!"
+    },
+    {
+        "name": "B C.",
+        "rating": 5,
+        "body": "CJ is a top notch human being. He was able to work around my time schedule to get my wife's QX80 windshield replaced. Very respectful to my wife and her vehicle. I would definitely recommend using CJ's \"Global Glass\" for any windshield replacement."
+    },
+    {
+        "name": "Kathy",
+        "rating": 5,
+        "body": "I was very pleased with CJ the service was great he was very professional I appreciate that he worked with my schedule"
+    },
+    {
+        "name": "Jeffery C.",
+        "rating": 5,
+        "body": "CJ saw me the next day, arrived on time and finished pretty much when he said he would. All this at a very good price. He was friendly and professional and I would recommend him to anyone looking to replace their windshield like I had to."
+    },
+    {
+        "name": "Ivianna R.",
+        "rating": 5,
+        "body": "CJ did a phenomenal job replacing my sunroof. He had great communication, was punctual, and provided exceptional service. Would definitely recommend him to anyone who needs their auto glass serviced!"
+    },
+    {
+        "name": "Alex L.",
+        "rating": 5,
+        "body": "CJ did an amazing job replacing a Nissan Rogue windshield! Not only is his pricing budget saving, but he also drives out to you and works around your schedule! I couldn't have asked for a better experience. He's definitely my go to guy now and someone I would recommend to family and friends!"
+    },
+    {
+        "name": "Tim N.",
+        "rating": 5,
+        "body": "CJ was the best. He arrived on time when we set up our appointment, and I couldn't be happier with his work. He did so good on my car I had him come back again and do another car that I had. If you need a windshield replaced, look no further and schedule an appointment. You won't be disappointed."
+    },
+    {
+        "name": "Jesus F.",
+        "rating": 5,
+        "body": "Quick response to my work call. Showed up on the time scheduled. very clean work and fast."
+    },
+    {
+        "name": "Jeffrey B.",
+        "rating": 5,
+        "body": "2021 Toyota CHR windshield. We were looking at $1250 to replace from dealer or glass shop. CJ came to the house and replaced it for $400. The exact same glass the dealer and glass shop had! Factory GLASS! The replacement only took an hour and a half! Quality workmanship! I would def recommend CJ to anybody me that needs windshield or glass replacement! Thanks, CJ for a job well done! Above and beyond happy and satisfied!"
+    }
+];
 
         let currentReviewIndex = 0;
         const reviewsPerLoad = 6;
